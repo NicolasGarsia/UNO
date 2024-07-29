@@ -1,14 +1,13 @@
 * {
-
     padding: 0;
     margin: 0;
-
 }
-
 body {
     background-color: #cccccc;
 }
 
+
+/* NAV */
 ul {
     list-style-type: none;
     margin: 0;
@@ -34,13 +33,11 @@ li {
     padding: 4px;
 }
 
-
 #titulo {
     font-size: 25px;
     font-family: cursive;
     color: rgb(255, 255, 255);
 }
-
 
 #boxL {
     background-color: rgb(255, 255, 255);
@@ -50,6 +47,8 @@ li {
     box-shadow: black 2px 2px 2px;
 }
 
+
+/* HOME */
 #box2{
     display: flex;
 }
@@ -68,4 +67,29 @@ li {
 #text1{
     margin: 40px;
     font-size: 15px;
+}
+
+/* Sobre */
+#boxG{
+    margin: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+#boxT{  
+    
+}
+
+#img2{
+    width: 500px;
+    height: 300px;
+    border: solid black 3px;
+    border-radius: 10px;
+}
+
+#h22{
+
+    font-size: 30px;
+    margin-bottom: 25px;
+
 }
