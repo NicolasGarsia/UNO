@@ -51,6 +51,12 @@ h1 {
     box-shadow: black 2px 2px 2px;
 }
 
+.descri2{
+    background-color: #dadada;
+    padding: 10px;
+    color: black;
+}
+
 
 /* HOME */
 #box2{
@@ -78,6 +84,8 @@ h1 {
  }
 
 #text1{
+    background-color: #dadada;
+    padding: 10px;
     margin: 40px;
     font-size: 15px;
 }
@@ -123,9 +131,11 @@ h1 {
 }
 
 .descricao{
+    background-color: #dadada;
+    padding: 10px;
     color: black;
     margin-top: 40px;
-    margin-left: 350px;
+    margin-left: 370px;
     margin-right: 350px;
 }
 
@@ -183,7 +193,7 @@ h1 {
     }
 
     #img1 {
-        width: 100%;
+        width: 99%;
         margin: 20px 0;
     }
 
@@ -232,4 +242,9 @@ h1 {
     .content-container img {
         width: 80%;
     }
+
+    .passos{
+        margin-left: 10px;
+    }
 }
+

@@ -15,7 +15,7 @@ export default function Sobre() {
                     <h2 id="h22"> Historia </h2>
                 </div>
                 <div>
-                    <p> A história do UNO é curiosa. O jogo é fruto de uma ‘briga’ entre um pai fã de jogos de cartas e seu filho birrento. <br /> <br />
+                    <p className="descri2"> A história do UNO é curiosa. O jogo é fruto de uma ‘briga’ entre um pai fã de jogos de cartas e seu filho birrento. <br /> <br />
 
                         A briga aconteceu em 1971, na cidade de Reading, nos Estados Unidos. Merle Robbins e seu filho, Ray, costumavam jogar ‘Oito Maluco‘ à noite, mas conflitos sempre apareciam. Merle, em especial, criticava as regras do jogo, e queria disputar as partidas de um jeito diferente. Mas Ray batia o pé e exigia que as regras originais fossem seguidas. Confusão familiar na certa! <br /> <br />
 
