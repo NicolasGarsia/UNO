@@ -33,6 +33,10 @@ li {
     padding: 4px;
 }
 
+h1 {
+    cursor: pointer;
+}
+
 #titulo {
     font-size: 25px;
     font-family: cursive;
@@ -51,6 +55,15 @@ li {
 /* HOME */
 #box2{
     display: flex;
+}
+
+#text3{
+
+    background-color: rgb(255, 255, 0);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
 }
 
 #img1{
@@ -76,9 +89,7 @@ li {
     gap: 40px;
 }
 
-#boxT{  
-    
-}
+
 
 #img2{
     width: 500px;

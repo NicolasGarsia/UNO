@@ -7,7 +7,7 @@ export default function Nav() {
         <>
             <div id="Box">
                 <div id="titulo" >
-                    <h1>UNO</h1>
+                    <h1 onClick={() => navigate('/')}>UNO</h1>
                 </div>
             </div>
 
