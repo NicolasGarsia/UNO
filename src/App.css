@@ -104,3 +104,132 @@ h1 {
     margin-bottom: 25px;
 
 }
+
+
+/*Como Jogar*/
+
+.lista{
+    margin: 40px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center
+}
+
+.fts{
+    width: 600px;
+    border-radius: 20px;
+    
+}
+
+.descricao{
+    color: black;
+    margin-top: 40px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.passos{
+    margin-top:40px;
+    margin-bottom: -20px;
+    margin-left: 380px;
+    
+}
+
+/* REGRAS */
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.content-container img{
+    width: 40%;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.text-r{
+    background-color: #dadada;
+    padding: 10px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    li {
+        float: none;
+        display: block;
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    #Box {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #titulo {
+        font-size: 20px;
+    }
+
+    #boxL {
+        padding: 10px;
+    }
+
+    #img1 {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #box2 {
+        flex-direction: column;
+    }
+
+    #text1, #h2, #text3 {
+        margin: 20px;
+    }
+
+    #text3 {
+        margin-top: 10px;
+    }
+
+    #boxG {
+        flex-direction: column;
+        margin: 20px;
+        gap: 20px;
+    }
+
+    #img2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .lista {
+        margin: 20px;
+    }
+
+    .fts {
+        width: 100%;
+    }
+
+    .descricao, .passos {
+        margin: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .text-r {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .content-container img {
+        width: 80%;
+    }
+}
